@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Amer Roast Café | The Café</title>
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body class="bg-amber-50 font-sans text-stone-900">
+
+  <header class="sticky top-0 z-50 border-b border-amber-200 bg-amber-50">
+    <div class="mx-auto flex max-w-6xl flex-col items-center gap-3 px-5 py-4 md:flex-row md:justify-between">
+      <a href="index.html" class="font-serif text-2xl font-bold hover:text-amber-700 focus:outline-none focus:ring-2 focus:ring-amber-600">☕ Amer Roast</a>
+      <nav aria-label="Main navigation">
+        <ul class="flex flex-wrap justify-center gap-2 text-sm font-semibold">
+          <li><a href="index.html" class="rounded-full px-4 py-2 hover:bg-amber-200 focus:outline-none focus:ring-2 focus:ring-amber-600">Home</a></li>
+          <li><a href="menu.html" class="rounded-full px-4 py-2 hover:bg-amber-200 focus:outline-none focus:ring-2 focus:ring-amber-600">Our menu</a></li>
+          <li><a href="gallery.html" aria-current="page" class="rounded-full bg-amber-200 px-4 py-2 hover:bg-amber-200 focus:outline-none focus:ring-2 focus:ring-amber-600">The café</a></li>
+          <li><a href="contact.html" class="rounded-full px-4 py-2 hover:bg-amber-200 focus:outline-none focus:ring-2 focus:ring-amber-600">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="mx-auto max-w-6xl px-5 py-14">
+      <h1 class="font-serif text-4xl font-bold sm:text-5xl">The café, in moments</h1>
+      <p class="mt-3 max-w-2xl text-stone-600">From the first pour to the last crumb, take a look around.</p>
+      <div class="mt-10 grid grid-cols-2 gap-4 md:grid-cols-3">
+        <figure class="relative overflow-hidden rounded-2xl">
+          <img class="h-56 w-full object-cover hover:scale-105 md:h-64" src="images/img15.png" alt="Barista pouring steamed milk into a coffee cup" loading="lazy">
+          <figcaption class="absolute inset-x-0 bottom-0 bg-black/60 p-3 text-sm font-semibold text-white">The morning pour</figcaption>
+        </figure>
+        <figure class="relative overflow-hidden rounded-2xl">
+          <img class="h-56 w-full object-cover hover:scale-105 md:h-64" src="images/img16.png" alt="Coffee cup and beans on a wooden table" loading="lazy">
+          <figcaption class="absolute inset-x-0 bottom-0 bg-black/60 p-3 text-sm font-semibold text-white">Coffee, always</figcaption>
+        </figure>
+        <figure class="relative overflow-hidden rounded-2xl">
+          <img class="h-56 w-full object-cover hover:scale-105 md:h-64" src="images/img17.png" alt="Fresh bread and pastries in a bakery" loading="lazy">
+          <figcaption class="absolute inset-x-0 bottom-0 bg-black/60 p-3 text-sm font-semibold text-white">Fresh from the oven</figcaption>
+        </figure>
+        <figure class="relative overflow-hidden rounded-2xl">
+          <img class="h-56 w-full object-cover hover:scale-105 md:h-64" src="images/img18.png" alt="Warm café interior with tables and chairs" loading="lazy">
+          <figcaption class="absolute inset-x-0 bottom-0 bg-black/60 p-3 text-sm font-semibold text-white">Your cosy corner</figcaption>
+        </figure>
+        <figure class="relative overflow-hidden rounded-2xl">
+          <img class="h-56 w-full object-cover hover:scale-105 md:h-64" src="images/img19.png" alt="Freshly baked sweet treats" loading="lazy">
+          <figcaption class="absolute inset-x-0 bottom-0 bg-black/60 p-3 text-sm font-semibold text-white">Something sweet</figcaption>
+        </figure>
+        <figure class="relative overflow-hidden rounded-2xl">
+          <img class="h-56 w-full object-cover hover:scale-105 md:h-64" src="images/img20.png" alt="Coffee shop counter ready for guests" loading="lazy">
+          <figcaption class="absolute inset-x-0 bottom-0 bg-black/60 p-3 text-sm font-semibold text-white">Behind the counter</figcaption>
+        </figure>
+      </div>
+    </section>
+  </main>
+
+  <footer class="bg-stone-900 text-stone-200">
+    <div class="mx-auto grid max-w-6xl gap-8 px-5 py-10 md:grid-cols-3">
+      <div>
+        <p class="font-serif text-2xl font-bold">Amer Roast Café</p>
+        <p class="mt-2 text-sm text-stone-400">Small-batch coffee, fresh bakes and a warm corner in the heart of Jaipur.</p>
+      </div>
+      <nav aria-label="Footer navigation">
+        <h2 class="text-sm font-bold uppercase tracking-widest text-amber-300">Explore</h2>
+        <ul class="mt-3 space-y-2 text-sm">
+          <li><a href="index.html" class="hover:text-amber-300 focus:outline-none focus:ring-2 focus:ring-amber-400">Home</a></li>
+          <li><a href="menu.html" class="hover:text-amber-300 focus:outline-none focus:ring-2 focus:ring-amber-400">Our menu</a></li>
+          <li><a href="gallery.html" class="hover:text-amber-300 focus:outline-none focus:ring-2 focus:ring-amber-400">The café</a></li>
+          <li><a href="contact.html" class="hover:text-amber-300 focus:outline-none focus:ring-2 focus:ring-amber-400">Contact</a></li>
+        </ul>
+      </nav>
+      <address class="text-sm not-italic">
+        <h2 class="text-sm font-bold uppercase tracking-widest text-amber-300">Visit us</h2>
+        <p class="mt-3">12, Ashok Marg, C-Scheme<br>Jaipur, Rajasthan 302001<br>Daily from 8 am</p>
+      </address>
+    </div>
+    <p class="border-t border-stone-700 py-4 text-center text-xs text-stone-400">Amer Roast Café </p>
+  </footer>
+</body>
+</html>
