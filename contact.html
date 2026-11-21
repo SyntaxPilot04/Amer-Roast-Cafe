@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Amer Roast Café | Contact</title>
+   <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>☕</text></svg>">
+ <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body class="bg-amber-50 font-sans text-stone-900">
+    <img class="fixed inset-0 -z-10 h-full w-full object-cover" src="images/bg-beans.jpg" alt="" aria-hidden="true">
+  <div class="fixed inset-0 -z-10 bg-amber-50/60"></div>
+
+  <header class="sticky top-0 z-50 border-b border-amber-200 bg-amber-50">
+    <div class="mx-auto flex max-w-6xl flex-col items-center gap-3 px-5 py-4 md:flex-row md:justify-between">
+      <a href="index.html" class="font-serif text-2xl font-bold hover:text-amber-700 focus:outline-none focus:ring-2 focus:ring-amber-600">☕ Amer Roast</a>
+      <nav aria-label="Main navigation">
+        <ul class="flex flex-wrap justify-center gap-2 text-sm font-semibold">
+          <li><a href="index.html" class="rounded-full px-4 py-2 hover:bg-amber-200 focus:outline-none focus:ring-2 focus:ring-amber-600">Home</a></li>
+          <li><a href="menu.html" class="rounded-full px-4 py-2 hover:bg-amber-200 focus:outline-none focus:ring-2 focus:ring-amber-600">Our menu</a></li>
+          <li><a href="gallery.html" class="rounded-full px-4 py-2 hover:bg-amber-200 focus:outline-none focus:ring-2 focus:ring-amber-600">gallery</a></li>
+          <li><a href="contact.html" aria-current="page" class="rounded-full bg-amber-200 px-4 py-2 hover:bg-amber-200 focus:outline-none focus:ring-2 focus:ring-amber-600">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="bg-amber-100">
+      <div class="mx-auto max-w-6xl px-5 py-14">
+        <h1 class="font-serif text-4xl font-bold sm:text-5xl">Let's make it a coffee date</h1>
+        <p class="mt-3 max-w-2xl text-stone-600">Book a table, ask a question or simply say hello.</p>
+      </div>
+    </section>
+
+    <section class="mx-auto grid max-w-6xl gap-8 px-5 py-12 lg:grid-cols-2">
+      <div class="rounded-2xl bg-white p-6 shadow-md">
+        <h2 class="font-serif text-3xl font-bold">How can we help?</h2>
+        <form action="#" method="post" class="mt-6 grid gap-5">
+          <div>
+            <label for="name" class="mb-2 block text-sm font-bold">Your name</label>
+            <input id="name" name="name" type="text" autocomplete="name" placeholder="e.g. Aarav Sharma" required class="w-full rounded-xl border border-amber-200 bg-amber-50 px-4 py-3 hover:border-amber-400 focus:outline-none focus:ring-2 focus:ring-amber-600">
+          </div>
+          <div>
+            <label for="phone" class="mb-2 block text-sm font-bold">Phone number</label>
+            <input id="phone" name="phone" type="tel" autocomplete="tel" placeholder="e.g. 98765 43210" required class="w-full rounded-xl border border-amber-200 bg-amber-50 px-4 py-3 hover:border-amber-400 focus:outline-none focus:ring-2 focus:ring-amber-600">
+          </div>
+          <div>
+            <label for="service" class="mb-2 block text-sm font-bold">What is this about?</label>
+            <select id="service" name="service" required class="w-full rounded-xl border border-amber-200 bg-amber-50 px-4 py-3 hover:border-amber-400 focus:outline-none focus:ring-2 focus:ring-amber-600">
+              <option value="">Choose an option</option>
+              <option>Table booking</option>
+              <option>Dine-in question</option>
+              <option>Takeaway order</option>
+              <option>Event or group enquiry</option>
+            </select>
+          </div>
+          <div>
+            <label for="message" class="mb-2 block text-sm font-bold">Your message</label>
+            <textarea id="message" name="message" rows="5" placeholder="Tell us the date, time and number of guests..." required class="w-full rounded-xl border border-amber-200 bg-amber-50 px-4 py-3 hover:border-amber-400 focus:outline-none focus:ring-2 focus:ring-amber-600"></textarea>
+          </div>
+          <button type="submit" class="rounded-full bg-amber-700 px-6 py-3 font-bold text-white hover:bg-stone-900 focus:outline-none focus:ring-2 focus:ring-amber-600 focus:ring-offset-2">Send your message</button>
+        </form>
+      </div>
+            <div class="grid content-start gap-6">
+        <div class="rounded-2xl bg-white p-6 shadow-md">
+          <h2 class="font-serif text-3xl font-bold">Find Amer Roast</h2>
+          <iframe title="Map showing C-Scheme, Jaipur" src="https://www.google.com/maps?q=C-Scheme%2C%20Jaipur&output=embed" class="mt-4 h-56 w-full rounded-xl border-0" loading="lazy" allowfullscreen></iframe>
+          <address class="mt-4 space-y-2 text-sm not-italic">
+            <p>12, Ashok Marg, C-Scheme, Jaipur 302001</p>
+            <p><a href="tel:+919800000000" class="font-semibold hover:text-amber-700 focus:outline-none focus:ring-2 focus:ring-amber-600">+91 98000 00000</a></p>
+            <p><a href="mailto:hello@amerroast.example" class="font-semibold hover:text-amber-700 focus:outline-none focus:ring-2 focus:ring-amber-600">hello@amerroast.example</a></p>
+          </address>
+          <div class="mt-5 flex flex-wrap gap-3">
+            <a href="tel:+919800000000" class="rounded-full bg-stone-900 px-5 py-3 text-sm font-bold text-white hover:bg-amber-700 focus:outline-none focus:ring-2 focus:ring-stone-900">Call now</a>
+            <a href="https://www.google.com/maps/search/?api=1&query=C-Scheme+Jaipur" target="_blank" rel="noopener noreferrer" class="rounded-full border border-stone-900 px-5 py-3 text-sm font-bold hover:bg-amber-100 focus:outline-none focus:ring-2 focus:ring-stone-900">Get directions</a>
+          </div>
+        </div>
+
+        <div class="rounded-2xl bg-white p-6 shadow-md">
+          <h2 class="font-serif text-2xl font-bold">Opening hours</h2>
+          <ul class="mt-4 space-y-3 text-sm">
+            <li class="flex justify-between border-b border-amber-100 pb-2"><span>Monday – Friday</span><span>8 am – 11 pm</span></li>
+            <li class="flex justify-between border-b border-amber-100 pb-2"><span>Saturday</span><span>9 am – 12 am</span></li>
+            <li class="flex justify-between"><span>Sunday</span><span>9 am – 12 am</span></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="bg-stone-900 text-stone-200">
+    <div class="mx-auto grid max-w-6xl gap-8 px-5 py-10 md:grid-cols-3">
+      <div>
+        <p class="font-serif text-2xl font-bold">☕ Amer Roast Café</p>
+        <p class="mt-2 text-sm text-stone-400">Small-batch coffee, fresh bakes and a warm corner in the heart of Jaipur.</p>
+      </div>
+      <nav aria-label="Footer navigation">
+        <h2 class="text-sm font-bold uppercase tracking-widest text-amber-300">Explore</h2>
+        <ul class="mt-3 space-y-2 text-sm">
+          <li><a href="index.html" class="hover:text-amber-300 focus:outline-none focus:ring-2 focus:ring-amber-400">Home</a></li>
+          <li><a href="menu.html" class="hover:text-amber-300 focus:outline-none focus:ring-2 focus:ring-amber-400">Our menu</a></li>
+          <li><a href="gallery.html" class="hover:text-amber-300 focus:outline-none focus:ring-2 focus:ring-amber-400">The café</a></li>
+          <li><a href="contact.html" class="hover:text-amber-300 focus:outline-none focus:ring-2 focus:ring-amber-400">Contact</a></li>
+        </ul>
+      </nav>
+      <address class="text-sm not-italic">
+        <h2 class="text-sm font-bold uppercase tracking-widest text-amber-300">Visit us</h2>
+        <p class="mt-3">12, Ashok Marg, C-Scheme<br>Jaipur, Rajasthan 302001<br>Daily from 8 am</p>
+      </address>
+    </div>
+    <p class="border-t border-stone-700 py-4 text-center text-xs text-stone-400">Amer Roast Café  </p>
+  </footer>
+
+</body>
+</html>
